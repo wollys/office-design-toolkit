@@ -91,7 +91,7 @@ Place this folder inside your skills directory:
 ### Option B — Clone from GitHub
 
 ```bash
-git clone https://github.com/<your-username>/office-design-toolkit.git
+git clone https://github.com/0xAstroAlpha/office-design-toolkit.git
 ```
 
 Then connect it to your agent's skill loading path.
